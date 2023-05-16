@@ -1,0 +1,12 @@
+package com.xxx;
+
+/**
+ * 拿铁咖啡
+ * @author Ether
+ */
+public class LatteCoffee extends Coffee{
+    @Override
+    public String getName() {
+        return "拿铁咖啡";
+    }
+}
