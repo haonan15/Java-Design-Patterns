@@ -149,6 +149,8 @@ public class App {
 
 ### 使用场景
 
-1. DateForamt类中的getInstance()方法使用的是工厂模式；
+Collection.iterator方法
 
-2. Calendar类中的getInstance()方法使用的是工厂模式；
+![image-20230516151137424](https://cloud-image-host.oss-cn-beijing.aliyuncs.com/img/202305161511464.png)
+
+Collection接口是抽象工厂类，ArrayList是具体的工厂类；Iterator接口是抽象商品类，ArrayList类中的Iter内部类是具体的商品类。在具体的工厂类中iterator()方法创建具体的商品类的对象。
