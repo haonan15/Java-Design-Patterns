@@ -15,6 +15,7 @@
         <module>prototype</module>
         <module>builder</module>
         <module>proxy</module>
+        <module>adapter</module>
     </modules>
 
     <properties>
